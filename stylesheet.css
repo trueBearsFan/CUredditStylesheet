@@ -73,6 +73,8 @@ body.listing-page .thing.link:hover {
 
 /***     FLAIR START     ***/
 .flair-base {
+     border-style: none;
+     border-radius: 5px;
      font-weight: bold;
      color: white;
 }
