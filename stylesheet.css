@@ -1,262 +1,288 @@
-.pagename a
-{
- background: url(%%BannerImage1-3%%);
- background-size: 100%;
- position: absolute;
- bottom: 0;
- height: 100px!important;
- left: 0;
- right: 0;
- float: left;
- background-position: 15px;
- z-index: 0;
+.pagename a {
+     background: url(%%banner1-7-1%%);
+     background-size: 3333px 100px;
+     position: absolute;
+     bottom: 0;
+     height: 100px!important;
+     left: 0;
+     right: 0;
+     float: left;
+     background-position: 15px;
+     z-index: 0;
+}
+.redditname a {
+     text-indent: -9000px;
+}
+.tabmenu {
+     display: inline;
+     float: left;
+}
+#header-bottom-left {
+     height: 100px;
+}
+#header-bottom-left .tabmenu {
+     position: absolute;
+     left: 500px;
+     bottom: 0;
+     display: inline;
+}
+#header-img.default-header {
+     position: absolute;
+     width: 30px!important;
+     left: .2em;
+     bottom: 0;
+     z-index: 1;
+}
+#header {
+     border-bottom: 1px solid #003963;
+     position: relative;
+     background-color: #cee3f8;
+     z-index: 99;
+}
+div.side div.spacer:nth-of-type(3) {
+     background: url(%%CUlogo1-2%%) top center no-repeat;
+     background-size: 75%;
+     padding: 230px 0 0;
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+div.RES-keyNav-activeElement,
+div.commentarea div.RES-keyNav-activeElement .md,
+div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
+     background: transparent none !important;
+}
+body,
+.side,
+.titlebox form.toggle,
+.leavemoderator,
+.icon-menu a,
+.side .spacer {
+     background: rgb(36, 34, 34);
+}
+.link {
+     padding: 7px 7px 7px 15px;
+}
+body.listing-page .thing.link:hover {
+     transition: .3s;
+     background: rgb(68, 68, 68);
+}
+.side {
+     padding-left: 5px;
+     padding-right: 5px;
 }
 
-.redditname a
-{
- text-indent: -9000px;
+/***     FLAIR START     ***/
+.flair-base {
+     font-weight: bold;
+     color: white;
 }
-
-.tabmenu
-{
- display: inline;
- float: left;
+.flair-west {
+     background-color: #DD4814;
 }
-
-#header-bottom-left
-{
- height: 100px;
+.flair-lawlor {
+     background: #44f;
 }
-
-#header-bottom-left .tabmenu
-{
- position:absolute;
- left: 500px;
- bottom: 0;
- display: inline;
+.flair-stclair {
+     background-color: rgb(6, 153, 153);
 }
-
-#header-img.default-header
-{
- position: absolute;
- width: 30px!important;
- left: .2em;
- bottom: 0;
- z-index: 1;
+.flair-printy {
+     background-color: #ff69b4;
 }
-
-div.side div.spacer:nth-of-type(3)
-{
- background:url(%%CedarvilleUniversity%%) top center no-repeat;
- padding: 210px 0 0;
- margin-top: 10px;
+.flair-hill {
+     background-color: #2C940F;
 }
-
-div.RES-keyNav-activeElement, div.commentarea div.RES-keyNav-activeElement .md, div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed
-{
- background: transparent none !important;
+.flair-rickard {
+     background-color: rgb(18, 124, 255);
 }
+/***     FLAIR END       ***/
 
-body, .side, .titlebox form.toggle, .leavemoderator, .icon-menu a, .side .spacer
-{
- background: rgb(36, 34, 34);
+.morelink .nub {
+     display: none;
 }
-
-.link
-{
- padding: 7px 7px 7px 15px;
+.tabmenu li a {
+     text-decoration: none;
+     color: rgb(36, 34, 34);
+     padding: 2px 6px 0 6px;
+     background-color: #FFFFFF;
 }
-
-body.listing-page .thing.link:hover
-{
- transition: .3s;
- background: rgb(68, 68, 68);
+.tabmenu li.selected a {
+     color: #003963;
+     border: 1px solid #003963;
 }
-
-.side
-{
- padding-left: 5px;
- padding-right: 5px;
+.titlebox h1 a {
+     color: white;
 }
-
-.flair-base
-{
- font-weight: bold;
- border-width: .3em;
- border-radius: 2em;
- padding: 0em .5em;
+.titlebox {
+     font-size: larger;
+     color: white;
 }
-
-.flair-west
-{
- background-color: rgb(36, 34, 34);
- color: white;
- border-color: #003561;
-
+.side .md {
+     font-size: 1.3em;
+     line-height: 1.25em;
+     color: white;
 }
-
-.flair-lawlor
-{
- background: linear-gradient(90deg, #f33, #ff3, #3f3, #33f);
- color: white;
- border-color: #003561;
+.sidecontentbox .title h1 {
+     display: inline;
+     text-transform: uppercase;
+     margin: 0;
+     color: white;
+     font-size: 130%;
 }
-
-.flair-stclair
-{
- background-color: rgb(36, 34, 34);
- color: white;
- border-color: #003561;
+.sidecontentbox .more a {
+     color: white;
 }
-
-.flair-hill
-{
- background-color: rgb(36, 34, 34);
- color: white;
- border-color: #003561;
+.gadget small {
+     color: white;
 }
-
-.morelink .nub
-{
- display: none;
+.titlebox .bottom {
+     border-top: 1px solid white;
+     padding-top: 2px;
+     font-size: 80%;
+     color: white;
 }
-
-.tabmenu li a
-{
- text-decoration: none;
- color: rgb(36, 34, 34);
- padding: 2px 6px 0 6px;
- background-color: #FFFFFF;
+.thing .title {
+     color: rgb(235, 168, 27);
+     outline: none;
+     margin-right: .4em;
+     padding: 0px;
+     overflow: hidden;
 }
-
-.tabmenu li.selected a
-{
- color: #003963;
- border: 1px solid #003963;
+.thing .title:visited,
+.thing.visited .title {
+     color: #0075D5;
 }
-
-.titlebox h1 a
-{
- color: white;
-}
-
-.titlebox
-{
- font-size: larger;
- color: white;
-}
-
-.side .md
-{
- font-size: 1.3em;
- line-height: 1.25em;
- color: white;
-}
-
-.sidecontentbox .title h1
-{
- display: inline;
- text-transform: uppercase;
- margin: 0;
- color: white;
- font-size: 130%;
-}
-
-.sidecontentbox .more a, .gadget small
-{
- color: white;
-}
-
-.titlebox .bottom
-{
- border-top: 1px solid white;
- padding-top: 2px;
- font-size: 80%;
- color: white;
-}
-
-.thing .title
-{
- color: rgb(235, 168, 27);
- outline: none;
- margin-right: .4em;
- padding: 0px;
- overflow: hidden;
-}
-
-.thing .title:visited, .thing.visited .title
-{
- color: #0075D5;
-}
-
 .expando-button {
- float: left;
- height: 23px;
- width: 23px;
- margin: 2px 5px 2px 0;
- background: #242222 none no-repeat scroll center center;
+     float: left;
+     height: 23px;
+     width: 23px;
+     margin: 2px 5px 2px 0;
+     background: #242222 none no-repeat scroll center center;
 }
-
 .link .score {
- text-align: center;
- color: #FFFFFF;
+     text-align: center;
+     color: #FFFFFF;
 }
-
 .link .rank {
- float: left;
- margin-top: 15px;
- color: #FFFFFF;
- font-family: arial;
- font-size: medium;
- text-align: right;
+     float: left;
+     margin-top: 15px;
+     color: #FFFFFF;
+     font-family: arial;
+     font-size: medium;
+     text-align: right;
 }
-
-
-.sidebox.create .morelink, .spacer > .sidebox.create > .spacer, .titlebox > .bottom > .flair.flair-west
-{
- display: none;
+.sidebox.create .morelink,
+.spacer > .sidebox.create > .spacer,
+.titlebox > .bottom > .flair.flair-west,
+header-img.default-header  {
+     display: none;
 }
-
-.titlebox > .bottom, .titlebox > .bottom > a
-{
- color: rgb(36, 34, 34);
+.titlebox > .bottom > .age {
+     color: white;
 }
-
-.titlebox > .bottom > .age
-{
- color: white;
-}
-
 .domain a {
- color: #FFF;
- display: inline-block;
- overflow: hidden;
- white-space: nowrap;
- text-overflow: ellipsis;
- vertical-align: middle;
- max-width: 19em;
+     color: #FFF;
+     display: inline-block;
+     overflow: hidden;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+     vertical-align: middle;
+     max-width: 19em;
 }
-
 .domain {
- color: #FFF;
- font-size: x-small;
- white-space: nowrap;
+     color: #FFF;
+     font-size: x-small;
+     white-space: nowrap;
 }
-
 .entry .buttons li a {
- color: #FFF;
- font-weight: bold;
- padding: 0 1px;
+     color: #FFF;
+     font-weight: bold;
+     padding: 0 1px;
 }
-
 .tagline {
- color: #FFF;
- font-size: x-small;
+     color: #FFF;
+     font-size: x-small;
 }
-
-.titlebox form.toggle, .leavemoderator {
- margin: 0;
- padding: 5px 0px;
- font-size: 1em;
- color: white;
+.titlebox form.toggle,
+.leavemoderator {
+     margin: 0;
+     padding: 5px 0px;
+     font-size: 1em;
+     color: white;
+}
+.fancy-toggle-button .active {
+     border: 1px solid #242222;
+     padding: 1px 6px;
+     background: #B34141 none repeat-x scroll center left;
+     color: white;
+     font-size: 10px;
+     font-weight: bold;
+     line-height: 20px;
+     border-radius: 3px;
+}
+.link.last-clicked {
+     border: 1px dashed rgb(36, 34, 34);
+     overflow: hidden;
+}
+.new-comment .usertext-body {
+     background-color: #242222;
+     border: solid 1px #242222;
+     margin: -1px 0;
+     padding: 0 4px;
+}
+.md {
+     max-width: 60em;
+     color: #FFFFFF;
+}
+.md del {
+     color: #FFFFFF;
+}
+.panestack-title .title {
+     font-size: 16px;
+     font-weight: normal;
+     margin: 10px 0;
+     color: white;
+}
+.commentarea .menuarea {
+     border: none;
+     margin: 0 310px 10px 10px;
+     padding: 0;
+     color: white;
+}
+.dropdown.lightdrop .selected {
+     color: white;
+}
+.commentarea .menuarea .toggle a {
+     color: white;
+     font-weight: bold;
+     font-size: x-small;
+}
+.panestack-title {
+     margin: 10px 310px 0px 10px;
+     padding-bottom: 3px;
+     border-bottom: 1px dotted rgb(36, 34, 34);
+}
+.menuarea .dropdown.lightdrop .selected {
+     text-decoration: none;
+     background: transparent;
+}
+.menuarea .dropdown.lightdrop .selected::after {
+     font-weight: bold;
+     content: " ∨";
+     /*content: " ≡";*/
+}
+.usertext-body.may-blank-within.md-container > .md {
+     background-color: rgb(60, 60, 60);
+     color: white;
+     border-style: none;
+     border-radius: 5px;
+     padding-left: 5px;
+     padding-right: 5px;
+}
+a[href="/user/trueBearsFan"],
+a[href*="/user/TheLifeguard"],
+a[href*="/user/obsidian_golem"],
+a[href*="/user/Caljoones"],
+a[href*="/user/natedog5105"],
+a[href*="/user/kabook35"] {
+     color: red !important;
 }
