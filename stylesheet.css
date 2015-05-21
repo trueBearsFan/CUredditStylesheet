@@ -278,7 +278,7 @@ header-img.default-header  {
      padding-left: 5px;
      padding-right: 5px;
 }
-a[href="/user/trueBearsFan"],
+a[href*="/user/trueBearsFan"],
 a[href*="/user/TheLifeguard"],
 a[href*="/user/obsidian_golem"],
 a[href*="/user/Caljoones"],
