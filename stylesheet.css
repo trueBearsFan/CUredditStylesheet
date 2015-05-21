@@ -278,11 +278,15 @@ header-img.default-header  {
      padding-left: 5px;
      padding-right: 5px;
 }
-a[href*="/user/trueBearsFan"],
+.entry> .tagline > a[href*="/user/trueBearsFan"],
 a[href*="/user/TheLifeguard"],
 a[href*="/user/obsidian_golem"],
 a[href*="/user/Caljoones"],
 a[href*="/user/natedog5105"],
 a[href*="/user/kabook35"] {
      color: red !important;
+}
+
+.titlebox > .tagline > a[href*="/user/trueBearsFan"] {
+     color: rgb(36, 34, 34);
 }
